@@ -13,13 +13,15 @@ public class AboutMe {
 	public long phoneNumber = 4702770607l;
 	public float height = 5.5f;
 	public double acres = 50.2569884546556;
-	public boolean usCitizen = false;
+	public boolean deliveryMethod = false;
 
 	public static void main(String[] args) {
 //	Now we will instantiate the class
 		AboutMe aboutMe = new AboutMe();
 		System.out.println("My business name: " + aboutMe.onlineBusiness);
 		System.out.println("\tAddress: " + aboutMe.houseNumber + " Hillside drive, Zipcode " + aboutMe.zipcode);
+		System.out.println("\tOnly method of delivery is online: " + aboutMe.deliveryMethod
+				+ ", Estimated Yearly incvestment around " + aboutMe.yearlyInvestment);
 		System.out.println("\tFor more info contact number: " + aboutMe.phoneNumber);
 
 	}
