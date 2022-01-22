@@ -10,7 +10,7 @@ public class MySelf {
 //	Also it is a static method
 //	Main method is represented by the following
 	public static void main(String[] args) {
-		System.out.println("Hello! My name is Suborna");
+		System.out.println("Hello! My name is Suborna.");
 	}
 
 }
