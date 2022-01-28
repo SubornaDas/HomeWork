@@ -23,4 +23,5 @@ public class AboutMe {
 				+ "\nMy Zip code: " + areaZipcode + "\nMy phone Number: " + phoneNumber + "\nSex: " + sex
 				+ "\nMy height: " + height + "\nMy CGPA: " + cgpa + "\nEuropean Citizen: " + europeanCitizen);
 	}
+
 }
