@@ -18,7 +18,6 @@ public class AboutMeTest {
 		suborna.aboutMe();
 
 		System.out.println("\n");
-
 		AboutMe alex = new AboutMe();
 		alex.name = "Alex";
 		alex.age = 36;
@@ -31,5 +30,4 @@ public class AboutMeTest {
 		alex.europeanCitizen = true;
 		alex.aboutMe();
 	}
-
 }
